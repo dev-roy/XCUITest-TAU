@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     
     @IBAction func enrollButton(_ sender: Any) {
         thanksMessage.isHidden = false
+        view.endEditing(true)
         
         if cityValue.text == "" {
             thanksMessage.text = "Please Enter City"
