@@ -5,7 +5,7 @@ branches:
   - master
 
 before_install:
- - gem install --verbose fastlane --no-rdoc --no-document
+ - gem install --verbose fastlane 
 install: true
 script:
  - fastlane scan --scheme TAU --device "iPhone 11 Pro Max"
